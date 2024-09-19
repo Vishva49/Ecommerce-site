@@ -39,6 +39,7 @@ body{
     padding: 20px;
     color: white;
     transition: 2s;
+    z-index: 1;
 }
 .side-navbar-link{
     margin-bottom: 30px;
@@ -84,6 +85,54 @@ body{
     background-color: #f2f4f7;
     padding: 20px;
     border-radius: 5px;
+}
+.new-arrival{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.new-arrival-container{
+    position: relative;
+    flex-basis: 20%;
+}
+.new-arrival-container button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #1d232c;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.news input{
+    padding: 11px;
+    width: 80vw;
+    margin-bottom: 10px;
+    border: solid black 3px;
+}
+.news button{
+    margin-top: 10px;
+    padding: 10px;
+    color: #f2f4f7;
+    background-color: #1d232c;
+    cursor: pointer;
+}
+.footer{
+    margin-top: 20px;
+    padding: 40px;
+    color: white;
+    background-color: #1d232c;
 }
 /*Media Query*/
 @media screen and (max-width:700px) {
